@@ -466,8 +466,8 @@
       "nvidia_tensor_cores": 640,
       "nvidia_tensor_cores_generation": 1,
       "nvidia_cuda_cores": 5120,
-      "gpu_memory": 16/32,
-      "memory_bandwidth": 128,
+      "gpu_memory": "16/32",
+      "memory_bandwidth": 900,
       "interconnect": "PCIe Gen3",
       "encoders_decoders": null,
       "cuda_compute_capability": "7",
@@ -505,8 +505,8 @@
       "nvidia_tensor_cores": 640,
       "nvidia_tensor_cores_generation": 1,
       "nvidia_cuda_cores": 5120,
-      "gpu_memory": 16/32,
-      "memory_bandwidth": 128,
+      "gpu_memory": "16/32",
+      "memory_bandwidth": 900,
       "interconnect": "NVLink",
       "encoders_decoders": null,
       "cuda_compute_capability": "7",
@@ -545,13 +545,13 @@
       "nvidia_tensor_cores_generation": 1,
       "nvidia_cuda_cores": 5120,
       "gpu_memory": 32,
-      "memory_bandwidth": 128,
+      "memory_bandwidth": 1134,
       "interconnect": "PCIe Gen3",
       "encoders_decoders": null,
       "cuda_compute_capability": "7",
       "power_consumption": 250,
       "sources": [
-         "https://images.nvidia.com/content/technologies/volta/pdf/tesla-v100s-datasheet-update-us-nvidia-1660420-r1.pdf",
+         "https://images.nvidia.com/content/technologies/volta/pdf/volta-v100-datasheet-update-us-1165301-r5.pdf",
          "https://www.techpowerup.com/gpu-specs/tesla-v100s-pcie-32-gb.c3584"
       ]
    }
